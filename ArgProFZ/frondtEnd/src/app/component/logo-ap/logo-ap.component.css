@@ -1,0 +1,42 @@
+.conteiner{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.redes img{ 
+    margin:0.5em;
+}
+#logoAp{
+    width: 150px;
+}
+#linkedin{
+    width: 50px;
+   }
+   #facebook{
+       width: 50px;
+      }
+   #instagram{
+       width: 50px;
+      }
+   
+   #github{
+       width: 50px;
+      }
+      .btm{
+        border-width: medium;
+      }
+      /*---para vista de celular*/
+      @media(max-width:575px){
+        .conteiner{
+            flex-direction: column;
+          }
+          .redes{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          .redes img{ 
+            margin:0.2em;
+          }
+      }
+      
